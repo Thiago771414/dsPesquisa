@@ -3,7 +3,7 @@
 React, React Native, Java
 
 # Sobre o projeto
-  MonoRepo FrontWeb, FrontMobile, BackEnd
+  MonoRepo: FrontWeb, FrontMobile, BackEnd
 
 ## Home Web
 ![Mobile 1](https://github.com/Thiago771414/imagensProjetos/blob/main/slices/mobile/dsPesquisa01.jpg)
