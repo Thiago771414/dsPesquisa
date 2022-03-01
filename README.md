@@ -29,7 +29,7 @@ React / React Native / Java
 #Escola
 https://devsuperior.com.br/sds-inscricao-org
 
-#Nuvem
+#Nuvem (aguardar 40 seg, para carregar o backend)
 https://thiagoreislimasds1.netlify.app/
 
 # Autor
