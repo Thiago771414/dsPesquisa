@@ -26,6 +26,7 @@ React, React Native, Java
 React / React Native / Java 
 
 # Sobre o Curso
+#Escola
 https://devsuperior.com.br/sds-inscricao-org
 
 #Nuvem
