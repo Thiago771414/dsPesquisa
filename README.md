@@ -1,4 +1,4 @@
-# dsPesquisa
+# Projeto Pesquisa
 
 React, React Native, Java
 
