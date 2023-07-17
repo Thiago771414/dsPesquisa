@@ -32,6 +32,9 @@ https://devsuperior.com.br/sds-inscricao-org
 #Nuvem (aguardar 40 seg, para carregar o backend)
 https://thiagoreislimasds1.netlify.app/
 
+#Endereço Swagger
+http://localhost:8080/swagger-ui.html
+
 # Autor
 
 Thiago Reis Lima
