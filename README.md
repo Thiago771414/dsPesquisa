@@ -1,4 +1,4 @@
-# Government Survey Data Platform
+# Survey Data Platform
 
 Full-stack application designed to simulate a **public data collection and analytics platform** used for surveys and statistical dashboards.
 
