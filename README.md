@@ -1,55 +1,133 @@
-# Survey Data Platform
+# Gamer Audience Insights Platform
 
-Full-stack application designed to simulate a **public data collection and analytics platform** used for surveys and statistical dashboards.
+Full-stack data collection and analytics platform designed to help businesses, communities, and gaming projects understand **player preferences** through structured survey responses and dashboard visualization.
 
-The system allows users to submit survey information and visualize results through a **web dashboard and mobile interface**.
+The system allows users to vote through a **mobile application** integrated with a backend API, while administrators and stakeholders can analyze the collected data through a **web dashboard** with records, filters, and metrics.
 
-This project demonstrates a **monorepo architecture** integrating Web, Mobile, and Backend services.
-
----
-
-# Project Overview
-
-This system was designed to simulate a **government-style data platform** used to collect and analyze survey responses from citizens or research participants.
-
-The platform includes:
-
-• Survey data collection  
-• Dashboard visualization  
-• Paginated records  
-• Mobile interface for data entry  
-• REST API backend  
-• Swagger API documentation  
-
-The architecture follows a **modular monorepo structure**.
+This project demonstrates how to transform raw audience feedback into a foundation for **data-driven decisions, KPI tracking, and continuous optimization**.
 
 ---
 
-# System Architecture
+# Problem
 
-The repository is organized into three main modules:
+Gaming communities, content creators, publishers, and new gaming businesses often need to answer questions such as:
 
-### Frontend Web
-React application responsible for:
+- Which platforms are most popular among users?
+- What genres are growing faster?
+- Which game titles attract the most engagement?
+- What age groups prefer specific types of games?
+- How can this data support product, marketing, or content decisions?
 
-• displaying survey data  
-• dashboards and charts  
-• paginated records  
-• data visualization
+Without a structured system, this information is usually scattered across forms, chats, spreadsheets, or social media comments, making analysis difficult and limiting the ability to build a real **metrics culture**.
 
-### Mobile Application
-React Native mobile interface designed for:
+---
 
-• survey data submission  
-• mobile-first interaction
+# Solution
 
-### Backend API
-Java (Spring Boot) backend responsible for:
+This project simulates a **Gamer Audience Insights Platform** that collects player preferences and transforms them into organized records and visual dashboards.
 
-• survey data processing  
-• REST API endpoints  
-• database communication  
-• API documentation via Swagger
+Users submit their votes through a **mobile interface**, selecting information such as:
+
+- name
+- age
+- platform (Xbox, PlayStation, etc.)
+- favorite genre (RPG, Battle Royale, etc.)
+- game title
+
+That data is processed through a **Java Spring Boot backend** and exposed to a **React web dashboard**, where decision-makers can:
+
+- browse records
+- view paginated survey data
+- analyze audience behavior
+- support KPI / OKR discussions
+- create a foundation for continuous optimization
+
+---
+
+# Business Value
+
+This project was designed to show how software can support **audience intelligence** in the gaming market.
+
+Potential use cases include:
+
+- validating interest before launching a gaming business
+- identifying the strongest player segments
+- understanding platform preference by age group
+- mapping genre popularity trends
+- helping teams define product and marketing priorities
+- supporting a culture of metrics and continuous improvement
+
+Instead of only storing responses, the platform turns survey data into **actionable insight**.
+
+---
+
+# Key Outcomes
+
+With a system like this, a business or organization can:
+
+- centralize gamer preference data
+- reduce manual analysis
+- visualize trends faster
+- support KPI and OKR tracking
+- improve decision-making with real audience data
+- create a base for future dashboards and product analytics
+
+---
+
+# Architecture
+
+The repository follows a **monorepo architecture** with three integrated modules.
+
+## Frontend Web
+
+Built with **React**, the web application is responsible for:
+
+- displaying survey records
+- rendering dashboard views
+- organizing paginated data
+- supporting metrics visualization
+
+## Mobile Application
+
+Built with **React Native**, the mobile application is responsible for:
+
+- collecting player votes
+- enabling mobile-first participation
+- integrating with the backend API
+
+## Backend API
+
+Built with **Java and Spring Boot**, the backend is responsible for:
+
+- receiving and validating survey submissions
+- processing data
+- exposing REST API endpoints
+- supporting frontend and mobile integration
+- documenting endpoints with Swagger
+
+---
+
+# Challenges Solved
+
+## 1. Turning user votes into structured data
+
+The project transforms simple user input into an organized dataset that can be consumed by dashboards and analytics views.
+
+## 2. Connecting mobile collection with centralized processing
+
+Votes happen through the mobile app, but the data is processed centrally through the backend API, enabling consistency and future scalability.
+
+## 3. Supporting decision-making through dashboards
+
+Instead of keeping feedback in isolated records, the system makes it easier to interpret data visually and use it for KPI / OKR discussions.
+
+## 4. Building a multi-platform architecture
+
+The project separates responsibilities across Web, Mobile, and Backend layers, improving maintainability and showing a more realistic engineering structure.
+
+## 5. Creating a foundation for continuous optimization
+
+The platform was designed not just for collection, but to support a long-term mindset of measuring, learning, and improving.
 
 ---
 
@@ -79,103 +157,84 @@ Java (Spring Boot) backend responsible for:
 
 # Technology Stack
 
-### Frontend Web
-• React  
-• TypeScript  
-• CSS
+## Frontend Web
+- React
+- TypeScript
+- CSS
 
-### Mobile
-• React Native
+## Mobile
+- React Native
 
-### Backend
-• Java  
-• Spring Boot  
-• REST API  
-• Swagger
+## Backend
+- Java
+- Spring Boot
+- REST API
+- Swagger
 
-### Tools
-• Git  
-• Netlify  
-• Heroku (initial deployment)
+## Tools
+- Git
+- Netlify
+- Heroku (initial backend deployment)
 
 ---
 
 # Live Demo
 
-Web interface deployed on Netlify.
-
-Application:
+Web interface deployed on Netlify:
 
 https://thiagoreislimasds1.netlify.app/
 
-⚠ Important note
-
-The backend was originally deployed on **Heroku**, however Heroku discontinued the free tier.
-
-Because of that, the live demo currently loads only the **frontend interface**.
-
-The **complete backend implementation and mobile application source code remain fully available inside this repository**.
-
-Developers can run the full system locally.
+> **Important note**
+>
+> The backend was originally deployed on **Heroku**, but Heroku discontinued the free tier.
+>
+> Because of that, the cloud demo currently loads only the **frontend interface**.
+>
+> The **complete backend implementation and mobile source code are fully available in this repository**, and the full system can be executed locally.
 
 ---
 
 # Running the Project Locally
 
-Clone the repository:
+## Clone the repository
 
 ```bash
 git clone https://github.com/Thiago771414/dsPesquisa
 ```
-
-# Start the backend:
-
+## Start the backend
 ```bash
 cd backend
 ./mvnw spring-boot:run
 ```
-
-# Run the web frontend:
-
+## Run the web frontend
 ```bash
 cd front-web
 npm install
 npm start
 ```
-
-# Run the mobile application:
-
+## Run the mobile application
 ```bash
-cd front-mobile
+cd front-web
 npm install
 npm start
 ```
-
-# API Documentation
-
-Swagger interface available when backend is running locally:
-
+## API Documentation
 ```bash
-[cd front-mobile
-npm install
-npm start](http://localhost:8080/swagger-ui.html)
+Swagger interface available when the backend is running locally:
+http://localhost:8080/swagger-ui.html
 ```
-
-# Learning Context
+## Learning Context
+```bash
 This project was developed as part of a full-stack training program focused on modern web architecture.
 School:
-```bash
 https://devsuperior.com.br/sds-inscricao-org
 ```
-# Author
+Author
 
 Thiago Reis Lima
 Software Engineer
 
-# LinkedIn
+LinkedIn:
 ```bash
 https://www.linkedin.com/in/thiago-lima-2a5896166/
 ```
-
-
-
