@@ -6,6 +6,17 @@ The system allows users to vote through a **mobile application** integrated with
 
 This project demonstrates how to transform raw audience feedback into a foundation for **data-driven decisions, KPI tracking, and continuous optimization**.
 
+![Java](https://img.shields.io/badge/Backend-SpringBoot-green)
+![React](https://img.shields.io/badge/Web-React-blue)
+![React Native](https://img.shields.io/badge/Mobile-ReactNative-purple)
+![Monorepo](https://img.shields.io/badge/Architecture-Monorepo-orange)
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/pesquisaOnline.png" width="900">
+</p>
+
 ---
 
 # Problem
