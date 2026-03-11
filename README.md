@@ -1,15 +1,15 @@
 # Gamer Audience Insights Platform
 
+![Java](https://img.shields.io/badge/Backend-SpringBoot-green)
+![React](https://img.shields.io/badge/Web-React-blue)
+![React Native](https://img.shields.io/badge/Mobile-ReactNative-purple)
+![Monorepo](https://img.shields.io/badge/Architecture-Monorepo-orange)
+
 Full-stack data collection and analytics platform designed to help businesses, communities, and gaming projects understand **player preferences** through structured survey responses and dashboard visualization.
 
 The system allows users to vote through a **mobile application** integrated with a backend API, while administrators and stakeholders can analyze the collected data through a **web dashboard** with records, filters, and metrics.
 
 This project demonstrates how to transform raw audience feedback into a foundation for **data-driven decisions, KPI tracking, and continuous optimization**.
-
-![Java](https://img.shields.io/badge/Backend-SpringBoot-green)
-![React](https://img.shields.io/badge/Web-React-blue)
-![React Native](https://img.shields.io/badge/Mobile-ReactNative-purple)
-![Monorepo](https://img.shields.io/badge/Architecture-Monorepo-orange)
 
 ---
 
