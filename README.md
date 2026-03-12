@@ -146,23 +146,33 @@ The platform was designed not just for collection, but to support a long-term mi
 
 ## Web Home
 
-<img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa01.jpg" width="900"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa01.jpg" width="200">
+</p>
 
 ## Pagination Layout
 
-<img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa02.jpg" width="900"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa02.jpg" width="200">
+</p>
 
 ## Dashboard
 
-<img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa03.jpg" width="900"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa03.jpg" width="200">
+</p>
 
 ## Mobile Home
 
-<img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa04.jpg" width="350"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa04.jpg" width="200">
+</p>
 
 ## Mobile Post Layout
 
-<img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa05.jpg" width="350"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thiago771414/imagensProjetos/main/slices/mobile/dsPesquisa05.jpg" width="200">
+</p>
 
 ---
 
